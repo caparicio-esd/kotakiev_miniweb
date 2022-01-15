@@ -153,6 +153,7 @@ body {
 
             @media screen and (max-width: 800px) {
                 justify-content: space-between;
+                flex-wrap: wrap;
             }
 
             .social_item {
@@ -178,6 +179,21 @@ body {
                     }
 
                     .social_item_label {}
+                }
+            }
+            .email_claim {
+                display: flex;
+                flex-direction: column;
+                margin-left: auto;
+                span {
+                    font-weight: bold;
+                }
+                a {
+
+                }
+                @media screen and (max-width: 800px) {
+                    width: 100%;
+                    margin-top: 2rem;
                 }
             }
         }
